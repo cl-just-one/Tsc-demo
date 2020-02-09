@@ -7,7 +7,7 @@ console.log("---------------", __dirname);
 module.exports = {
     mode: process.env.NODE_ENV === "production" ? "production" : "development",
     // 入口文件
-    entry: "./src/index.ts",
+    entry: "./src/lesson1.ts",
     output: {
         filename: "main.js"
     },
